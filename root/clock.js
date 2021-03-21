@@ -232,7 +232,7 @@ function update(){
 
     let seconds = time.getSeconds();
     if(seconds < 10){
-        seconds = "0"+minutes.toString();
+        seconds = "0"+seconds.toString();
     }
     let digitFour = parseInt((seconds.toString()[0]));
     let digitFive = parseInt((seconds.toString()[1]));
