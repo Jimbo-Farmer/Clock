@@ -1,0 +1,113 @@
+.bar {
+    height: 20px;
+    width: 120px;
+    background-color: rgb(0, 24, 24);
+    position: relative;
+    
+    
+}
+
+.left {
+    font-size: 0px;
+    height: 0px;
+    width: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid rgb(0, 24, 24);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: relative;
+    left: -20px;
+    top: 14px;
+}
+
+.right {
+    font-size: 0px;
+    height: 0;
+    width: 0;
+    border-left: 10px solid rgb(0, 24, 24);
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: relative;
+    left: 120px;
+    top: -25px;
+}
+
+.segment {
+    position: absolute;
+}
+
+.horizontal-middle {
+    top: 150px;
+}
+
+.horizontal-bottom {
+    top: 300px;
+}
+
+.vertical {
+    transform: rotate(90deg);
+}
+
+.top-left {
+    left: -75px;
+    top: 75px;
+}
+.bottom-left {
+    left: -75px;
+    top: 225px;
+}
+.top-right {
+    left: 75px;
+    top: 75px;
+}
+.bottom-right {
+    left: 75px;
+    top: 225px;
+}
+
+.digit{
+    position: relative;
+}
+
+.colon div, .point div {
+    height: 20px;
+    width: 20px;
+    margin-top: 60px;
+    background-color: aqua;
+    position: relative;
+    left: 180px;
+    top: 100px;
+}
+
+.hour1 {
+    margin-left: 50px;
+}
+.hour2 {
+    margin-left: 240px;
+}
+
+.minute1 {
+    margin-left: 220px
+}
+.minute2 {
+    margin-left: 410px;
+}
+
+
+body{
+    display: flex;
+    background-color: black;
+}
+
+.point div {
+    left: 170px;
+    top: 250px;
+}
+
+.second1{
+    margin-left: 220px;
+}
+.second2{
+    margin-left: 410px;
+}
